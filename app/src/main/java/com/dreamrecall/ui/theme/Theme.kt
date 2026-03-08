@@ -33,7 +33,7 @@ private object SmoothRippleTheme : RippleTheme {
     override fun rippleAlpha(): RippleAlpha = RippleTheme.defaultRippleAlpha(
         Color(0xFF6A00FF),
         lightTheme = !isSystemInDarkTheme()
-    ).copy(pressedAlpha = 0.1f, hoveredAlpha = 0.04f)
+    )
 }
 
 @Composable
